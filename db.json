@@ -1,0 +1,421 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "title": "Ticket123",
+      "description": "Applications du portail Intrao",
+      "reporter": "Yvan Dipoko",
+      "author_id": 3,
+      "assignee": "Ngaba Marc-Antoine",
+      "status": "Fermé",
+      "department": "GFC",
+      "source": "Bonanjo",
+      "priority": "Urgent",
+      "created_at": "2022-07-01",
+      "closed_at": ""
+    },
+    {
+      "id": 2,
+      "title": "Ticket2",
+      "description": "Applications de la banque",
+      "reporter": "Fredy Ted",
+      "assignee": "Krys Hercael",
+      "status": "Résolu",
+      "department": "Service Juridique",
+      "source": "Hippodrome",
+      "priority": "Important",
+      "category": "Cat2",
+      "created_at": "2022-07-01",
+      "closed_at": "2022-07-03"
+    },
+    {
+      "id": 3,
+      "title": "Ticket3",
+      "description": "Applications de la banque en général",
+      "reporter": "Yvan Dipoko",
+      "assignee": "Ngaba Marc-Antoine",
+      "status": "En cours",
+      "department": "Operations locales",
+      "source": "Bertoua",
+      "priority": "Normal",
+      "category": "Cat3",
+      "created_at": "2022-07-01",
+      "closed_at": ""
+    },
+    {
+      "title": "efrtg",
+      "description": "sdefrtg",
+      "reporter": "Moi",
+      "assignee": "Auto-assign",
+      "status": "En cours",
+      "priority": "Normal",
+      "category": "Application",
+      "id": 4
+    },
+    {
+      "title": "rfgthj",
+      "description": "fghjkl",
+      "reporter": "Moi",
+      "assignee": "Auto-assign",
+      "status": "Résolu",
+      "priority": "Normal",
+      "category": "Application",
+      "closed_at": "",
+      "id": 7
+    },
+    {
+      "title": "Ticket",
+      "description": "trfedsa",
+      "reporter": "Moi",
+      "assignee": "Auto-assign",
+      "status": "En cours",
+      "priority": "Normal",
+      "category": "Application",
+      "closed_at": "",
+      "id": 8
+    },
+    {
+      "title": "Tick",
+      "description": "Test Ticket",
+      "reporter": "Yvan Dipoko",
+      "assignee": "Auto-assign",
+      "status": "Assigné",
+      "department": "DSI",
+      "priority": "Normal",
+      "category": "Application",
+      "resolved": "false",
+      "closed_at": "",
+      "id": 9
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Infrastructure",
+      "description": "Lorem10",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Electricité",
+          "description": "Lorem"
+        },
+        {
+          "id": 2,
+          "name": "Climatisation",
+          "description": "Lorem"
+        },
+        {
+          "id": 3,
+          "name": "Serveur",
+          "description": "Lorem"
+        },
+        {
+          "id": 4,
+          "name": "Infra réseau",
+          "description": "Lorem"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Réseau",
+      "description": "Lorem10",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "LAN",
+          "description": "Lorem"
+        },
+        {
+          "id": 2,
+          "name": "MAN",
+          "description": "Lorem"
+        },
+        {
+          "id": 3,
+          "name": "WAN",
+          "description": "Lorem"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sécurité",
+      "description": "Lorem10",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Système Anti-incendie",
+          "description": "Lorem"
+        },
+        {
+          "id": 2,
+          "name": "Système Anti-intrusion",
+          "description": "Lorem"
+        },
+        {
+          "id": 3,
+          "name": "Contrôle d'accès",
+          "description": "Lorem"
+        },
+        {
+          "id": 4,
+          "name": "Caméra de surveillance",
+          "description": "Lorem"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Applications",
+      "description": "Lorem10",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Desktop",
+          "description": "Lorem",
+          "subcategories": [
+            {
+              "id": 1,
+              "name": "Corps bancaire",
+              "description": "Lorem"
+            },
+            {
+              "id": 2,
+              "name": "Corps monétique",
+              "description": "Lorem"
+            },
+            {
+              "id": 3,
+              "name": "Portail/Intra",
+              "description": "Lorem"
+            },
+            {
+              "id": 4,
+              "name": "Applications tierces",
+              "description": "Lorem"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Mobile",
+          "description": "Lorem",
+          "subcategories": [
+            {
+              "id": 1,
+              "name": "Services",
+              "description": "Lorem"
+            },
+            {
+              "id": 2,
+              "name": "Applications",
+              "description": "Lorem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Automate",
+      "description": "Lorem10",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "GAB",
+          "description": "Lorem"
+        },
+        {
+          "id": 2,
+          "name": "Cash Deposit",
+          "description": "Lorem"
+        },
+        {
+          "id": 3,
+          "name": "TPE",
+          "description": "Lorem"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Amplitude ne fonctionne pas depuis ce matin",
+      "author": "Marie Charlie",
+      "creation_date": "2022-07-20",
+      "ticket_id": 8
+    },
+    {
+      "id": 15,
+      "content": "J'ai le même problème avec mon poste",
+      "author": "Idorllson",
+      "creation_date": "2022-07-20",
+      "ticket_id": 1
+    },
+    {
+      "id": 17,
+      "content": "On est en train de faire une mise à jours. Ca devait se terminer la nuit mais le réseau dérangeait.\n Patientez 30min.",
+      "author": "Yvan Dipoko",
+      "creation_date": "2022-07-20",
+      "ticket_id": 2
+    },
+    {
+      "id": 17,
+      "author": "Marie Charlie",
+      "content": "Finissez vite. J'ai les clients devant moi",
+      "creation_date": "2022-07-20",
+      "ticket_id": 2
+    },
+    {
+      "id": 4,
+      "author": "Caisse 3",
+      "content": "L'ordinateur ne se connecte pas au réseau",
+      "creation_date": "2022-07-20",
+      "ticket_id": 5
+    },
+    {
+      "id": 4,
+      "author": "Yvan Dipoko",
+      "content": "C'est déjà bon",
+      "creation_date": "2022-07-20",
+      "ticket_id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "ebed",
+      "password": "password",
+      "agency": "Bonanjo",
+      "departement": "GFC",
+      "lastLogin": "2022-07-21",
+      "role": "Agent"
+    },
+    {
+      "id": 2,
+      "username": "archimed1",
+      "password": "password",
+      "agency": "Hippodrome",
+      "departement": "DSI",
+      "lastLogin": "2022-07-21",
+      "role": "Super-Admin"
+    },
+    {
+      "id": 3,
+      "username": "yvandip",
+      "password": "password",
+      "agency": "Bonanjo",
+      "departement": "DSI",
+      "lastLogin": "2022-07-21",
+      "role": "Admin"
+    }
+  ],
+  "agencies": [
+    {
+      "id": 0,
+      "name": "Hippodrome",
+      "region": "Centre",
+      "city": "Yaounde",
+      "niveau": 0,
+      "adresse": "Avenue des banques"
+    },
+    {
+      "id": 1,
+      "name": "Hippodrome",
+      "region": "Centre",
+      "city": "Yaounde",
+      "niveau": 1,
+      "adresse": "Avenue des banques"
+    },
+    {
+      "id": 2,
+      "name": "Bonanjo",
+      "region": "Littoral",
+      "city": "Douala",
+      "niveau": 2,
+      "adresse": "Face SGC"
+    },
+    {
+      "id": 3,
+      "name": "Mboppi",
+      "region": "Littoral",
+      "city": "Douala",
+      "niveau": 2,
+      "adresse": "Face SGC"
+    }
+  ],
+  "knowledgeBase": [
+    {
+      "id": 1,
+      "name": "Bonanjo",
+      "agencyId": 1
+    },
+    {
+      "id": 2,
+      "name": "Root",
+      "agencyId": 0
+    },
+    {
+      "id": 3,
+      "name": "Hippodrome",
+      "agencyId": 1
+    }
+  ],
+  "kb_article": [
+    {
+      "id": 2,
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est consectetur rem officiis modi tempore nemo minima inventore iusto voluptatem omnis! Quibusdam eligendi quia perferendis facilis aliquam necessitatibus, asperiores molestias accusantium!",
+      "creationDate": "2022-06-12",
+      "category": "Reseau",
+      "knowledgeBase_id": 2
+    },
+    {
+      "id": 1,
+      "content": "<p>Faille dans Intra: Proteger les postes d'agence</p>",
+      "creationDate": "2022-06-05",
+      "knowledgeBase_id": 2
+    },
+    {
+      "id": 3,
+      "content": "Faille dans Intra: Proteger les postes d'agence",
+      "creationDate": "2022-06-05",
+      "knowledgeBase_id": 2
+    }
+  ],
+  "suggestion": [
+    {
+      "id": "1",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est consectetur rem officiis modi tempore nemo minima inventore iusto voluptatem omnis! Quibusdam eligendi quia perferendis facilis aliquam necessitatibus, asperiores molestias accusantium!",
+      "creation_date": "2022-07-20",
+      "element_id": 3,
+      "last_modification_date": "2022-06-21",
+      "visibility": true
+    },
+    {
+      "id": "2",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est consectetur rem officiis modi tempore nemo minima inventore iusto voluptatem omnis! Quibusdam eligendi quia perferendis facilis aliquam necessitatibus, asperiores molestias accusantium!",
+      "creation_date": "2022-07-20",
+      "element_id": 3,
+      "last_modification_date": "2022-06-21",
+      "visibility": true
+    },
+    {
+      "id": "3",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est consectetur rem officiis modi tempore nemo minima inventore iusto voluptatem omnis! Quibusdam eligendi quia perferendis facilis aliquam necessitatibus, asperiores molestias accusantium!",
+      "creation_date": "2022-07-20",
+      "element_id": 3,
+      "last_modification_date": "2022-06-21",
+      "visibility": true
+    },
+    {
+      "id": "5",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est consectetur rem officiis modi tempore nemo minima inventore iusto voluptatem omnis! Quibusdam eligendi quia perferendis facilis aliquam necessitatibus, asperiores molestias accusantium!",
+      "creation_date": "2022-07-20",
+      "element_id": 3,
+      "last_modification_date": "2022-06-21",
+      "visibility": true
+    }
+  ]
+}
