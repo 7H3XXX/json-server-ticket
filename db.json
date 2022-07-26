@@ -17,10 +17,10 @@
     {
       "id": 2,
       "title": "Ticket2",
-      "description": "Applications de la banque",
+      "description": "<p>Applications de la banque, (Amplitue)</p>",
       "reporter": "Fredy Ted",
       "assignee": "Krys Hercael",
-      "status": "Résolu",
+      "status": "Fermé",
       "department": "Service Juridique",
       "source": "Hippodrome",
       "priority": "Important",
@@ -30,11 +30,11 @@
     },
     {
       "id": 3,
-      "title": "Ticket3",
-      "description": "Applications de la banque en général",
+      "title": "Ticket31",
+      "description": "<p>Applications de la banque en générale</p>",
       "reporter": "Yvan Dipoko",
       "assignee": "Ngaba Marc-Antoine",
-      "status": "En cours",
+      "status": "Résolu",
       "department": "Operations locales",
       "source": "Bertoua",
       "priority": "Normal",
@@ -57,7 +57,7 @@
       "description": "fghjkl",
       "reporter": "Moi",
       "assignee": "Auto-assign",
-      "status": "Résolu",
+      "status": "Fermé",
       "priority": "Normal",
       "category": "Application",
       "closed_at": "",
@@ -65,7 +65,7 @@
     },
     {
       "title": "Ticket",
-      "description": "trfedsa",
+      "description": "<p>trfedsabjop</p>",
       "reporter": "Moi",
       "assignee": "Auto-assign",
       "status": "En cours",
@@ -79,13 +79,26 @@
       "description": "Test Ticket",
       "reporter": "Yvan Dipoko",
       "assignee": "Auto-assign",
-      "status": "Assigné",
+      "status": "Résolu",
       "department": "DSI",
       "priority": "Normal",
       "category": "Application",
       "resolved": "false",
       "closed_at": "",
       "id": 9
+    },
+    {
+      "title": "gnfjg",
+      "description": "hgj",
+      "reporter": "Yvan Dipoko",
+      "assignee": "Auto-assign",
+      "status": "Nouveau",
+      "department": "DSI",
+      "priority": "Normal",
+      "category": "Application",
+      "resolved": "false",
+      "closed_at": "",
+      "id": 10
     }
   ],
   "category": [
@@ -281,6 +294,27 @@
       "content": "C'est déjà bon",
       "creation_date": "2022-07-20",
       "ticket_id": 5
+    },
+    {
+      "ticket_id": "2",
+      "content": "C'est bon déja, vérifie.",
+      "author": "John Doe",
+      "created_At": 1658828733680,
+      "id": 18
+    },
+    {
+      "ticket_id": "3",
+      "content": "Hey",
+      "author": "John Doe",
+      "created_At": 1658828975069,
+      "id": 19
+    },
+    {
+      "ticket_id": "3",
+      "content": "bfgfngj",
+      "author": "John Doe",
+      "created_at": 1658857560387,
+      "id": 20
     }
   ],
   "users": [
@@ -366,22 +400,33 @@
   "kb_article": [
     {
       "id": 2,
+      "title": "Lorem",
       "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est consectetur rem officiis modi tempore nemo minima inventore iusto voluptatem omnis! Quibusdam eligendi quia perferendis facilis aliquam necessitatibus, asperiores molestias accusantium!",
-      "creationDate": "2022-06-12",
+      "created_at": "2022-06-12",
+      "updated_at": "2022-07-07",
       "category": "Reseau",
-      "knowledgeBase_id": 2
+      "knowledgeBase_id": 2,
+      "number_of_views": 5
     },
     {
       "id": 1,
+      "title": "Lorem",
       "content": "<p>Faille dans Intra: Proteger les postes d'agence</p>",
-      "creationDate": "2022-06-05",
-      "knowledgeBase_id": 2
+      "created_at": "2022-06-05",
+      "updated_at": "2022-06-10",
+      "category": "Reseau",
+      "knowledgeBase_id": 2,
+      "number_of_views": 2
     },
     {
       "id": 3,
+      "title": "Lorem",
       "content": "Faille dans Intra: Proteger les postes d'agence",
-      "creationDate": "2022-06-05",
-      "knowledgeBase_id": 2
+      "created_at": "2022-06-06",
+      "updated_at": "2022-06-07",
+      "category": "Infra",
+      "knowledgeBase_id": 2,
+      "number_of_views": 10
     }
   ],
   "suggestion": [
